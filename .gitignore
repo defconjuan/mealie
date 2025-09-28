@@ -171,5 +171,5 @@ dev/code-generation/openapi.json
 frontend/eslint.config.deprecated.js
 
 # Molabs 
-docker/mealie_data/
-!docker/mealie_data/.gitkeep
+/docker/mealie-data/
+!/docker/mealie-data/.gitkeep
