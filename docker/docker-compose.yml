@@ -1,14 +1,15 @@
 services:
   mealie:
     container_name: mealie
-    image: mealie:dev
+    # image: mealie:dev
+    image: hkotel/mealie:nightly
     build:
       context: ../
       target: production
       dockerfile: ./docker/Dockerfile
     restart: always
     volumes:
-      - mealie-data:/app/data/
+      - ./mealie-data:/app/data/
     ports:
       - 9091:9000
     environment:
@@ -32,7 +33,6 @@ services:
       # SMTP_FROM_EMAIL=
       # SMTP_USER=
       # SMTP_PASSWORD=
-
-volumes:
-  mealie-data:
-    driver: local
+# volumes:
+#   mealie-data:
+#     driver: local
