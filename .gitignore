@@ -173,3 +173,5 @@ frontend/eslint.config.deprecated.js
 # Molabs 
 /docker/mealie-data/
 !/docker/mealie-data/.gitkeep
+!/docker/mealie-data/.session_secret
+!/docker/mealie-data/.secret
