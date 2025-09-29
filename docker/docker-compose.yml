@@ -15,7 +15,7 @@ services:
     environment:
       ALLOW_SIGNUP: "false"
       LOG_LEVEL: "DEBUG"
-      BASE_URL: "https://www.recetas.family"
+      BASE_URL: ${BASE_URL}
 
       DB_ENGINE: postgres #Default: sqlite # Optional: 'sqlite', 'postgres'
       # =====================================
