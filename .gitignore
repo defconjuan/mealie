@@ -8,7 +8,7 @@
 # frontend/.env.development
 docs/site/
 *temp/*
-.secret
+# .secret
 frontend/dist/
 frontend/.output/*
 frontend/.yarn/*
