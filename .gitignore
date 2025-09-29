@@ -177,6 +177,6 @@ frontend/eslint.config.deprecated.js
 !/docker/postgres-data/.gitkeep
 /backups/*
 !/backups/.gitkeep
-#!/docker/mealie-data/.session_secret
-#!/docker/mealie-data/.secret
+!/docker/mealie-data/.session_secret
+!/docker/mealie-data/.secret
 
